@@ -25,6 +25,12 @@ int main()
 	cout<<"0.- Salir del menu \n\n";
         cout<<" Ingrese una opcion : "; cin>>op;
 	switch(op){
+				case 1:
+	//ESTA FUNCION PERMITE ALMACENAR LOSDATOS DEL USUARIO.
+	cout<<"\nEsta opcion permite recopilar los datos personales del usuario";
+	alber.ingresar();
+    alber.mostrar(); 
+		break;
       }
     if(op!=0){
 			    cout << "\nOpcion no permitida !\n" <<  "Press Enter to continue\n";
