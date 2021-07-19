@@ -41,6 +41,11 @@ int main()
 	cout<<"\nEsta opcion permite calcular el indice de masa corporal\n\n";
 		alber.set_masa(peso);
 		break;
+			case 4:
+	// ESTA FUNCION PERMITE GUARAR LOSDATOS EN ARCHIVO TXT.
+	cout<<"\nEsta opcion permite guardar los datos en un archivo de texto\n\n";
+		alber.save();
+		break;
       }
     if(op!=0){
 			    cout << "\nOpcion no permitida !\n" <<  "Press Enter to continue\n";
