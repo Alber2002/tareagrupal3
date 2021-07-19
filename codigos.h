@@ -124,4 +124,18 @@ void set_masa(int peso){
 			
 		
 		}
+			void lectura(){
+			ifstream archivo;
+			string texto;
+			archivo.open("persona.txt",ios::in);
+			if(archivo.fail()){
+				cout<<"el archivo no existe XX";
+				exit(1);
+			}
+			
+			while (!archivo.eof()){
+			getline(archivo,texto);
+			cout<<texto<<endl;
+		}	
+		}
   };
