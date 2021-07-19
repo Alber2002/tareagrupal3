@@ -31,6 +31,11 @@ int main()
 	alber.ingresar();
     alber.mostrar(); 
 		break;
+	        case 2:
+       //ESTA FUNCION PERMITE CALCULAR LA EDAD DEL USUARIO.
+	cout<<"\nEsta opcion permite calcular la edad del usuario\n\n";
+    alber.digitar(fa);
+		break;
       }
     if(op!=0){
 			    cout << "\nOpcion no permitida !\n" <<  "Press Enter to continue\n";
