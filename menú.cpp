@@ -36,6 +36,11 @@ int main()
 	cout<<"\nEsta opcion permite calcular la edad del usuario\n\n";
     alber.digitar(fa);
 		break;
+				case 3:
+	//ESTA FUNCION PERMITE CALCULAR EL INDICE DE MASA CORPORAL.
+	cout<<"\nEsta opcion permite calcular el indice de masa corporal\n\n";
+		alber.set_masa(peso);
+		break;
       }
     if(op!=0){
 			    cout << "\nOpcion no permitida !\n" <<  "Press Enter to continue\n";
