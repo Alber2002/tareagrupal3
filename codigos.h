@@ -40,4 +40,31 @@ class Persona{
 		cout<<fn[2]<<"\t";
 		
 		}
+	void digitar(int fa[3]){
+		fn[3]=0;
+	cout<<"digite la fecha actual (aa mm dd):  ";cin>>fa[0];cin>>fa[1];cin>>fa[2];
+	cout<<"digite su fecha de nacimiento (aa mm dd):  ";cin>>fn[0];cin>>fn[1];cin>>fn[2];
+	
+	if(fa[2]>fn[2]){
+		edad[2] = fa[2] - fn[2];
+	}
+	else{
+		fa[2]=fa[2]+30;
+		fa[1]=fa[1]-1;
+		edad[2] = fa[2] - fn[2];
+	}
+	if(fa[1]>fn[1]){
+		edad[1] = fa[1] - fn[1];
+	}
+	else{
+		fa[1]=fa[1]+12;
+		fa[0]=fa[0]-1;
+		edad[1] = fa[1] - fn[1];
+	}
+	
+	edad[0]= fa[0]-fn[0];
+	
+	cout<<"su edad es:  "<<edad[0]<<" años con "<<edad[1]<<" meses y "<<edad[2]<<" dias.";
+	
+}
   };
