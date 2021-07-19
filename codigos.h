@@ -111,4 +111,17 @@ void set_masa(int peso){
 			}
 		}
 		}
+	void save(){
+	
+			ofstream archivo("persona.txt");
+			archivo<<"cedula:  "<<cedula<<"\n\n";
+			archivo<<"nombres:  "<<apellidos<<"\n\n";
+			archivo<<"su fecha de nacimiento es: "<<fn[0]<<"/"<<fn[1]<<"/"<<fn[2]<<"\n\n";
+			archivo<<"su edad hasta exacta hasta hoy es:  "<<edad[0]<<" años con "<<edad[1]<<" meses y "<<edad[2]<<" dias\n\n";
+			archivo<<"su indice de masa corporal es:  "<<imc<<"\n\n";
+			cout<<"sus datos han sido guardados con exito :)\n"<<"\n\n";
+			cout<<"gracias por utilizar el programa, hasta la proxima\n"<<"\n\n";
+			
+		
+		}
   };
