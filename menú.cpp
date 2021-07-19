@@ -46,6 +46,11 @@ int main()
 	cout<<"\nEsta opcion permite guardar los datos en un archivo de texto\n\n";
 		alber.save();
 		break;
+					case 5:
+	//ESTA FUNCION PERMITE MOSTRAR LOS DATOSDEL ARCHIVO.
+	cout<<"\nEsta opcion permite mostrar los datos del archivo de texto\n\n";
+		alber.lectura();
+		break;
       }
     if(op!=0){
 			    cout << "\nOpcion no permitida !\n" <<  "Press Enter to continue\n";
