@@ -67,4 +67,48 @@ class Persona{
 	cout<<"su edad es:  "<<edad[0]<<" años con "<<edad[1]<<" meses y "<<edad[2]<<" dias.";
 	
 }
+void set_masa(int peso){
+    
+    peso=0;
+	estatura=0;
+	
+    cout<<"digite su peso:   ";cin>>peso;
+    cout<<"digite su estatura:   ";cin>>estatura;
+	imc= peso/(estatura*estatura);
+	cout<<"\n\nTu masa corporal es de:  "<<imc<<"\n\n";
+	
+	if(imc<18.5){
+		cout<<"1. necesitas alimentarte bien: sigue una dieta en la que consumas suficientes proteinas\n\n";
+		cout<<"2. Realiza rutinas de entrenamiento que aumenten su intensidad progresivamente para ganar masa corporal";
+		cout<<"\n\n3. no te olvides de ingerir suplementos y vitaminas, esto te ayudara a adquirir masa corporal en poco tiempo\n\n";
+	}
+	else{
+		if (imc>=18.5 && imc<=24.9){
+			cout<<"felicitaciones!!, has sabido cuidar muy bien de tu masa corporal :)\n";
+			cout<<"\ntienes que seguir estas recomendaciones para mantener tu masa corporalcomo hasta ahora:\n\n";
+			cout<<"1. manten una dietaequilibrada que no implique ingerir demaciadas calorias\n";
+			cout<<"2. comer frutas entre comidas te ayudara a mantener tu masa corporal\n";
+			cout<<"3. realiza rutinas de ejercicio con intencidad constante para mantener tu fisico\n\n",
+			cout<<"                                         sigue asi ;)                                     \n";
+		}
+		else{
+			if (imc>=18.5 && imc<=24.9){
+			cout<<"Atencion!! tienes que disminuir masa corporal :(\n";
+			cout<<"\n1. Limita el consumo de alimentos que sean ricos en azúcares y grasas\n";
+			cout<<"2. Realizar actividad física frecuente: unos 60 min diarios(jóvenes) y 150 min semanales (adultos)\n";
+			cout<<"3. Comer varias veces al día fruta y verdura, así como legumbres, cereales integrales y frutos secos\n\n",
+			cout<<"                                   combate el sobrepesooo!!                                       \n";	
+			}
+			else{
+			cout<<"estas en riesgoooo!! :(\n";
+			cout<<"\n1. rigete a una dieta exclusivamente de alimentos saludables\n";
+			cout<<"2. Realizar una rutina de entrenamiento que aumenten su intencidad progresivamente, realiza 15  mindiarios\n";
+			cout<<"3. realiza caminatas diarias de 1/2 kilometro\n",
+			cout<<"4. Comer varias veces al día fruta y verdura, así como legumbres, cereales integrales y frutos secos\n\n",
+			cout<<"                                   combate el sobrepesooo!!                                       \n";	
+			}
+				
+			}
+		}
+		}
   };
