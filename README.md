@@ -1,4 +1,5 @@
 #Bienvenidos a nuestro repositorio#
+
 *Introducción*
 
 creamos un programa que le permite al usuario ingresar sus datos personales, como peso, estatura, fecha de nacimiento, #cedula, y ya teniendo conocimientos de estos datosle permitirá saber al usuario su edad exacta y su indice de masa corporal, a mas de ello, el programa brinda recomendaciónes para regular o mantener, el indice de masa corporal del usuario. 
