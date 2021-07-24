@@ -1,4 +1,4 @@
-#Bienvenidos a nuestro repositorio#
+# Bienvenidos a nuestro repositorio
 
 *Introducción*
 
@@ -16,7 +16,7 @@ Integrantes*
 
 - Mayerli Rosa Parraga Bone:  Se encargó del código que permite al usuario mostrar los datos que se encuentran dentro del archivo .txt desde el programa.
 
-####*Composición*####
+#### *Composición* 
 
 El programa está compuesto por dos archivos:
 - Menú: Como su nombre mismo lo indica, es el menu de opciones que va a permitir que el programa se ejecute de una manera mas ordenada, este archifo es formato .cpp
