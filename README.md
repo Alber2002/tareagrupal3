@@ -190,3 +190,13 @@ Para realizar la operación requerida en el caso u opción 5:
         - Nos dirigimos a la parte superior izquierda donde dice (File)
         - Damos click en la opcion (Save As)
         - Guardamos el codigo con el nombre codigo.h
+	
+### *Ejecución*
+              - Ejecutamos el codigo con (F10)
+              - Se desplegara un menú de 6 opciones
+              - Al colocar la opción 1 y da enter, puede llenar sus datos personales, como  (cedula, nombres, fecha de nacimiento, peso, estatura)
+             - Al colocar la opción 2  y da enter, puede calcular su edad exacta.
+      - Al colocar la opción 3 y da enter, muestra su indice corporal y se le brinda recomendaciones en caso si es necesario.
+             - Al colocar la opción 4, se guardan todos los datos
+             - Al colocar la opción 5, se realiza la lectura de los datos.
+             - Al colocar la opción 6, puede salir del programa.
