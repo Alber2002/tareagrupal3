@@ -166,3 +166,27 @@ Para realizar la operación requerida en el caso u opción 5:
 - copiaremos todos los datos del archivo de texto en nuestra nueva variable declarada(texto) para poder mostrarlos datos en el programa: *getline(archivo,texto)*, como estamos trabajando con caracteres utilizamos el comando string.}
 
 - Mostramos por pantalla la variable en laque se encuentran todos los datos del usuario.
+
+#### *Instalación*
+
+*Menú*
+
+      -  Abrimos el documento de menú.
+      - Copiamos el codigo con (control+C)
+      - Abrimos  Dev-C++
+      - Abrimos una ventana en Dev-C++ con (Control+N).
+      - Pegamos el codigo con (Control+V). 
+      - Nos dirigimos a la parte superior izquierda donde dice (File)
+      - Damos click en la opcion (Save As)
+      - Guardamos el codigo con el nombre de menú.
+      
+*Codigo*
+
+        -  Abrimos el documento de codigos.h
+        - Copiamos el codigo con (control+C)
+        - Abrimos  Dev-C++
+        - Abrimos una ventana en Dev-C++ con (Control+N).
+        - Pegamos el codigo con (Control+V). 
+        - Nos dirigimos a la parte superior izquierda donde dice (File)
+        - Damos click en la opcion (Save As)
+        - Guardamos el codigo con el nombre codigo.h
